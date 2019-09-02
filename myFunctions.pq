@@ -1,5 +1,5 @@
 
-				/*fnCleanColNames - Uppercases, removes spaces from Column names; can be modified and expanded */
+/*fnCleanColNames - Uppercases, removes spaces from Column names; can be modified and expanded */
 
 (OriginalData as any) =>
 	let
@@ -104,7 +104,7 @@ in
 	
 	
 				/*NESTED RANKINGS */
-	
+()
 let
     Source = Exchange.Contents("jake@seahag.onmicrosoft.com"),
     People = Source{[Name="People"]}[Data],
