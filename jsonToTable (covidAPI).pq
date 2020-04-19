@@ -51,6 +51,7 @@ let
         Table.NestedJoin(
           extractData, {"isoCode"},
           isoTable, {"isoCode"},
+          
           "countries",
           JoinKind.LeftOuter
         ),
